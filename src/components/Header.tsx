@@ -13,11 +13,11 @@ const Header = () => {
                 placement="end"
                 >
                 <Offcanvas.Header closeButton>
-                    <Offcanvas.Title id="offcanvasNavbarLabel">Offcanvas</Offcanvas.Title>
+                    <Offcanvas.Title id="offcanvasNavbarLabel">My Shop</Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body>
                     <Nav.Item className="justify-content-end flex-grow-1 pe-3">
-                        <NavLink className="nav-link" to="/home">Home</NavLink>
+                        <NavLink className="nav-link" to="/">Home</NavLink>
                     </Nav.Item>
                     <Nav.Item className="justify-content-end flex-grow-1 pe-3">
                         <NavLink className="nav-link" to="/about">About</NavLink>
@@ -28,7 +28,7 @@ const Header = () => {
                 </Offcanvas.Body>
                 </Navbar.Offcanvas>
             </Container>
-            </Navbar>
+        </Navbar>
     )
 }
 

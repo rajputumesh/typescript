@@ -1,4 +1,4 @@
-import { Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Routes } from 'react-router';
 import Home from "./Home";
 import About from "./About";
@@ -7,9 +7,9 @@ import Contact from "./Contact";
 const AppRoutes = () =>{
     return (
         <Routes>
-            <Route path="/home" />
-            <Route path="/about" />
-            <Route path="/contact" />
+            <Route path="/" element={<Home/>}/>
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />}/>
         </Routes>
     )
 }

@@ -1,7 +1,11 @@
+import Shop from "./Shop"
+
 const Home = () =>
 {
     return (
-       <div>Home Component</div>
+       <div>
+           <Shop />
+       </div>
     )
 }
 
