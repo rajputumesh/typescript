@@ -1,12 +1,12 @@
-import Shop from "./Shop"
+import React, { FC } from "react";
+import Shop from "../Pages/Shop";
 
-const Home = () =>
-{
-    return (
-       <div>
-           <Shop />
-       </div>
-    )
-}
+const Home: FC = () => {
+  return (
+    <div>
+      <Shop />
+    </div>
+  );
+};
 
-export default Home
+export default Home;
