@@ -10,9 +10,7 @@ const AppRoutes: FC = () => {
     <div>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/shop" element={<Shop id={0} title={""} routeName={""} />} />
         <Route path="/about" element={<About />} />
-
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
